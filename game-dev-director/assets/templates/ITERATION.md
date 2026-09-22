@@ -13,5 +13,5 @@
 
 - Observed:
 - Evidence:
-- Decision: keep | change | cut
+- Decision: KEEP | CHANGE | CUT
 - Next:

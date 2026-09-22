@@ -3,7 +3,7 @@ name: game-dev-director
 description: Direct game development from concept through release by reconstructing existing projects, challenging scope, choosing the next playable increment, and preserving decisions and evidence. Use for game design, production planning, project recovery, game jams, playtest-driven iteration, milestone readiness, or deciding what a game team should build next; pair with engine-specific skills for implementation details.
 license: MIT
 metadata:
-  short-description: Direct and iterate game projects
+  short-description: Direct, challenge, and iterate game projects
 ---
 
 # Game Dev Director
@@ -35,11 +35,16 @@ Do not create `.game-dev/` files until they will preserve useful project
 knowledge. Ask before replacing existing project documentation; otherwise
 augment it or reference it from project state.
 
+End every substantive turn with a [Director Brief](references/director-brief.md):
+current state with confidence, objective and hypothesis, next playable
+increment, success/kill signals, open questions, and record changes made.
+
 ## Direct the Work
 
 Infer a process profile from evidence:
 
-- `micro`: 1–3 day jam or experiment; keep only the current objective and tasks.
+- `micro`: 1–3 day jam or experiment; keep only the current objective and
+  tasks in at most a single `.game-dev/PROJECT_STATE.md` (none if under a day).
 - `small`: focused prototype or short small-team project.
 - `standard`: multi-month indie or commercial production.
 - `full`: multi-discipline production that genuinely needs ownership, budgets,
@@ -70,9 +75,21 @@ Keep facts separate from:
 - playtest observations.
 
 Use the templates under [assets/templates](assets/templates) only as needed;
-do not generate every file by default. Update existing records in place. Log a
-decision when forgetting its rationale would cause costly rework, not for every
-minor implementation choice.
+do not generate every file by default. See
+[PROJECT_STATE.example.md](assets/examples/PROJECT_STATE.example.md) for the
+canonical filled-in example. Update existing records in place. Log a decision
+when forgetting its rationale would cause costly rework, not for every minor
+implementation choice.
+
+### Project record layout
+
+Records live under `.game-dev/` (full rules in
+[project-record.md](references/project-record.md)):
+
+- `PROJECT_STATE.md`, `GAME_VISION.md`, `DECISIONS.md`, `ASSUMPTIONS.md`,
+  `RISKS.md`: single files, updated in place or appended.
+- `iterations/NNN-short-slug.md`: one file per iteration.
+- `playtests/YYYY-MM-DD-short-slug.md`: one file per playtest.
 
 Use [project-health.md](references/project-health.md) for uneven or mature
 projects, [production.md](references/production.md) for sustained content

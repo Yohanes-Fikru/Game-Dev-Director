@@ -18,7 +18,7 @@ to distinguish implemented, working, partial, abandoned, and merely intended.
 
 ## Reconcile
 
-Write a concise reconstruction with confidence labels where needed:
+Produce a concise reconstruction with confidence labels where needed:
 
 - observed facts;
 - inferred product vision and current objective;
@@ -35,6 +35,12 @@ authoritative only if the next action depends on it.
 
 Ask 1–3 questions only for gaps that inspection cannot settle, especially the
 current priority, deadlines, and intentional deviations. Propose a corrected
-`PROJECT_STATE.md`; preserve existing documentation instead of duplicating it.
-End reconstruction with one playable objective and the next evidence-producing
+`.game-dev/PROJECT_STATE.md` (layout in [project-record.md](project-record.md));
+preserve existing documentation instead of duplicating it.
+
+## Output
+
+The output of reconstruction is a [Director Brief](director-brief.md) plus any
+proposed state files. The reconciliation above fills the brief's **Current
+state**; end with one playable objective and the next evidence-producing
 increment.

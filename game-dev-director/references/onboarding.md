@@ -25,5 +25,7 @@ Stop questioning when you can state:
 4. the smallest playable experiment;
 5. observable success or kill signals.
 
-Create only the state files needed to preserve those answers. Then move into the
-iteration engine and produce work.
+Create only the state files needed to preserve those answers (see
+[project-record.md](project-record.md)). The output of onboarding is a
+[Director Brief](director-brief.md) plus any proposed state files. Then move
+into the iteration engine and produce work.

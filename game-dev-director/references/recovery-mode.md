@@ -20,7 +20,7 @@ already works.
 ## Create a recovery milestone
 
 Choose one player-visible target with a short review horizon. Classify work as
-keep, repair, replace, defer, or cut. Put only blockers for that target in
+`KEEP`, `REPAIR`, `REPLACE`, `DEFER`, or `CUT`. Put only blockers for that target in
 `NOW`, assign a clear kill condition to risky rescue work, and preserve a
 known-good build.
 
