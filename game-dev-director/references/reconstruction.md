@@ -35,8 +35,9 @@ authoritative only if the next action depends on it.
 
 Ask 1–3 questions only for gaps that inspection cannot settle, especially the
 current priority, deadlines, and intentional deviations. Propose a corrected
-`.game-dev/PROJECT_STATE.md` (layout in [project-record.md](project-record.md));
-preserve existing documentation instead of duplicating it.
+`<project>_docs/game-dev/PROJECT_STATE.md` (layout in
+[project-record.md](project-record.md)); preserve existing documentation
+instead of duplicating it.
 
 ## Output
 

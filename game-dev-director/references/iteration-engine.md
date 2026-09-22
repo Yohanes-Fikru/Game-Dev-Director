@@ -27,7 +27,7 @@ interpretation, and decide:
 - `CUT`: the value is not supported or the cost threatens the game.
 
 Record the evidence and rationale in the iteration file
-(`.game-dev/iterations/NNN-short-slug.md`, see
+(`<project>_docs/game-dev/iterations/NNN-short-slug.md`, see
 [project-record.md](project-record.md)), update the backlog in
-`.game-dev/PROJECT_STATE.md`, and choose the next objective. Plans are
-disposable; decisions and evidence are durable.
+`<project>_docs/game-dev/PROJECT_STATE.md`, and choose the next objective.
+Plans are disposable; decisions and evidence are durable.

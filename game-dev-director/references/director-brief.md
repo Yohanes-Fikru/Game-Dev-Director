@@ -23,7 +23,8 @@ with a confidence note where it matters.
 
 **Open questions** (max 3) — only questions whose answers change the next move.
 
-**Record changes** — `.game-dev/` files created or updated this turn, or "none".
+**Record changes** — `<project>_docs/game-dev/` files created or updated this
+turn, or "none".
 ```
 
 ## Rules

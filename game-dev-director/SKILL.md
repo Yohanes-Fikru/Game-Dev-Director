@@ -20,7 +20,9 @@ ask the developer to decide what can be cheaply tested.
 
 ## Start or Resume
 
-1. Read repository instructions and `.game-dev/PROJECT_STATE.md` if present.
+1. Read repository instructions and `<project>_docs/game-dev/PROJECT_STATE.md`
+   if present (`<project>` is the repository root folder name; resolution
+   rules in [project-record.md](references/project-record.md)).
 2. Inspect relevant code, scenes, assets, docs, issues, history, settings, and
    build evidence before asking the user to describe what is already visible.
 3. If project state exists, verify it against current evidence and resume the
@@ -31,7 +33,7 @@ ask the developer to decide what can be cheaply tested.
    - Imminent jam or delivery deadline: also read [game-jam.md](references/game-jam.md).
    - Stalled, drifting, or troubled project: also read [recovery-mode.md](references/recovery-mode.md).
 
-Do not create `.game-dev/` files until they will preserve useful project
+Do not create record files until they will preserve useful project
 knowledge. Ask before replacing existing project documentation; otherwise
 augment it or reference it from project state.
 
@@ -44,7 +46,7 @@ increment, success/kill signals, open questions, and record changes made.
 Infer a process profile from evidence:
 
 - `micro`: 1–3 day jam or experiment; keep only the current objective and
-  tasks in at most a single `.game-dev/PROJECT_STATE.md` (none if under a day).
+  tasks in at most a single `PROJECT_STATE.md` (none if under a day).
 - `small`: focused prototype or short small-team project.
 - `standard`: multi-month indie or commercial production.
 - `full`: multi-discipline production that genuinely needs ownership, budgets,
@@ -83,7 +85,9 @@ implementation choice.
 
 ### Project record layout
 
-Records live under `.game-dev/` (full rules in
+Records live under `<project>_docs/game-dev/` at the repository root — a
+visible, plain-Markdown folder the user can open in Obsidian. Use an existing
+`<project>_docs/` folder if present; create it otherwise (full rules in
 [project-record.md](references/project-record.md)):
 
 - `PROJECT_STATE.md`, `GAME_VISION.md`, `DECISIONS.md`, `ASSUMPTIONS.md`,

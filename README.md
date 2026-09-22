@@ -5,7 +5,8 @@ iterate on, and ship game projects—from a 48-hour jam to a commercial release.
 
 The skill adapts to the project's scale and actual maturity. It can start with a
 new idea or reconstruct an existing project, then keeps continuity in a small
-`.game-dev/` project record.
+`<project>_docs/game-dev/` project record — plain Markdown you can also browse
+in Obsidian.
 
 ## Install
 
@@ -31,17 +32,23 @@ create the smallest useful project state.
 
 ## Project record
 
-Durable project knowledge lives under `.game-dev/` in the game repository:
+Durable project knowledge lives under `<project>_docs/game-dev/` in the game
+repository, where `<project>` is the repository folder name (e.g.
+`cursed-relics_docs/`). The skill reuses an existing `<project>_docs/` folder
+and creates it otherwise. The distinct name makes the folder easy to spot when
+adding it to an Obsidian vault; files are standard Markdown with relative
+links, so they render on GitHub too.
 
 ```text
-.game-dev/
-├── PROJECT_STATE.md                 # single; updated in place; resume point
-├── GAME_VISION.md                   # single
-├── DECISIONS.md                     # single; appended
-├── ASSUMPTIONS.md                   # single; updated in place
-├── RISKS.md                         # single; updated in place
-├── iterations/NNN-short-slug.md     # one per iteration
-└── playtests/YYYY-MM-DD-short-slug.md  # one per playtest
+cursed-relics_docs/
+└── game-dev/
+    ├── PROJECT_STATE.md                 # single; updated in place; resume point
+    ├── GAME_VISION.md                   # single
+    ├── DECISIONS.md                     # single; appended
+    ├── ASSUMPTIONS.md                   # single; updated in place
+    ├── RISKS.md                         # single; updated in place
+    ├── iterations/NNN-short-slug.md     # one per iteration
+    └── playtests/YYYY-MM-DD-short-slug.md  # one per playtest
 ```
 
 Files are created only when they preserve useful knowledge; `micro` and jam

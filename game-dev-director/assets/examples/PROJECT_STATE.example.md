@@ -24,7 +24,7 @@ Last verified: 2025-03-14
 - Success signals: 3 of 5 testers replay unprompted; median run length
   4–6 minutes; testers can name their relic after the run.
 - Review point: after playtest on 2025-03-21, or when the boss is beatable.
-- Iteration file: `.game-dev/iterations/003-relic-choice.md`
+- Iteration file: `cursed-relics_docs/game-dev/iterations/003-relic-choice.md`
 
 ## Focus
 
@@ -45,7 +45,7 @@ Last verified: 2025-03-14
 
 - Boss-per-relic variation triples boss work per relic; trigger: adding a fourth
   relic; mitigation: boss reads a relic *tag*, not the relic itself
-  (see `.game-dev/RISKS.md`).
+  (see `cursed-relics_docs/game-dev/RISKS.md`).
 - Placeholder art may hide whether the relic identity reads; trigger: testers
   cannot name their relic; mitigation: one distinct color + silhouette per relic
   before the 03-21 test.
@@ -54,8 +54,10 @@ Last verified: 2025-03-14
 
 ## Evidence and Links
 
-- Latest playtest: `.game-dev/playtests/2025-03-07-internal-loop-test.md`
+- Latest playtest:
+  `cursed-relics_docs/game-dev/playtests/2025-03-07-internal-loop-test.md`
   (2 testers, `CHANGE`: loop works, no run identity)
 - Known-good build: tag `proto-0.2` (Windows/Linux export, runs on clean machine)
-- Design notes: `docs/relics.md`
-- Decisions: `.game-dev/DECISIONS.md` (D-002: no meta-progression before showcase)
+- Design notes: `cursed-relics_docs/design/relics.md`
+- Decisions: `cursed-relics_docs/game-dev/DECISIONS.md`
+  (D-002: no meta-progression before showcase)

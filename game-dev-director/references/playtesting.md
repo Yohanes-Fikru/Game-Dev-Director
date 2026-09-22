@@ -7,7 +7,7 @@ the session. Use the least leading protocol that still exposes the behavior:
 observe first, then ask what the player understood, attempted, and felt.
 
 Record separately, in one file per session
-(`.game-dev/playtests/YYYY-MM-DD-short-slug.md`, see
+(`<project>_docs/game-dev/playtests/YYYY-MM-DD-short-slug.md`, see
 [project-record.md](project-record.md)):
 
 - direct observations and measurements;
