@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Dev Director"
+  short_description: "Direct, challenge, and iterate game projects"
+  default_prompt: "Use $game-dev-director to inspect this game project and choose the next playable objective."
