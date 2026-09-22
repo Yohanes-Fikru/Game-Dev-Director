@@ -26,5 +26,8 @@ interpretation, and decide:
 - `CHANGE`: the belief remains plausible but implementation or framing failed;
 - `CUT`: the value is not supported or the cost threatens the game.
 
-Record the evidence and rationale, update the backlog, and choose the next
-objective. Plans are disposable; decisions and evidence are durable.
+Record the evidence and rationale in the iteration file
+(`.game-dev/iterations/NNN-short-slug.md`, see
+[project-record.md](project-record.md)), update the backlog in
+`.game-dev/PROJECT_STATE.md`, and choose the next objective. Plans are
+disposable; decisions and evidence are durable.

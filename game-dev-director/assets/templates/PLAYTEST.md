@@ -19,6 +19,6 @@
 
 ## Decision
 
-- Outcome: keep | change | cut
+- Outcome: KEEP | CHANGE | CUT
 - Confidence:
 - Next experiment:
